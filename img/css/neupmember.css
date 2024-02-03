@@ -1,0 +1,59 @@
+@charset "UTF-8";
+    
+    div[class*="Img"] {
+    border-bottom: 1px dotted #959595;
+    min-height: 150px;
+    padding: 50px 0 25px;
+    margin-bottom: 25px;
+    position: relative;
+    }
+    div.leftImg h2,
+    div.leftImg p {
+    margin-left: 255px;
+    }
+    div.rightImg h2,
+    div.rightImg p {
+    margin-right: 255px;
+    }
+    div[class*="Img"] h2 {
+    background: url(../img/icon3.png) no-repeat 5px .1em;
+    color: #630;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 0 0 0 20px;
+    margin-bottom: 5px;
+    }
+    div[class*="Img"] p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 1em;
+    }
+    div[class*="Img"] img {
+    position: absolute;
+    top: 20px;
+    }
+    div.leftImg img {
+    left: 0px;
+    }
+    div.rightImg img {
+    right: 0px;
+    }
+    
+    /*大画像用設定追加
+    -----------------------------------------*/
+    div.big[class*="Img"] {
+    min-height: 290px;
+    }
+    div.big.leftImg h2,
+    div.big.leftImg p {
+    margin-left: 470px;
+    }
+    div.big.rightImg h2,
+    div.big.rightImg p {
+    margin-right: 470px;
+    }
+    
+    
+    
+    
